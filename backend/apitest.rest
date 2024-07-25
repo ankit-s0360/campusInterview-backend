@@ -1,0 +1,17 @@
+get http://localhost:4444/book
+
+
+###
+POST http://localhost:4444/job/jobpost
+Content-Type: application/json
+
+{
+    "title":"Web Developer",
+    "salary":"5",
+    "location":"Mumbai",
+    "description":"Description 1"
+}  
+
+
+###
+get http://localhost:4444/user/660ff465eda7471371ecbf52
